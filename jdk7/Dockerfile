@@ -1,4 +1,4 @@
-FROM centos:7
+FROM msarti/c7-systemd
 MAINTAINER Marco Sarti <marco.sarti@gmail.com>
 ENV container docker
 ENV JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
